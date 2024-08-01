@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className='box-border'>
         <main className="flex items-center min-h-screen p-4 sm:pl-24 sm:pr-24 md:pl-20 md:pr-20  w-full h-full flex-col gap-8 bg-slate-950">
           {/* <Snowfall /> */}
           <div className="w-full h-full bg-slate-800 rounded-md pl-4  pr-4  text-white">

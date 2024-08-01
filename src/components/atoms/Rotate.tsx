@@ -4,10 +4,11 @@ const Rotate = ({children}: any) => {
   return (
     <motion.div
     animate={{ rotate: 360 }}
-    transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
-    className="text-3xl text-blue-500"
+    transition={{ repeat: Infinity, duration: 2, ease: 'linear' }}
+    className="flex justify-center items-center"
+    style={{ width: 'fit-content', height: 'fit-content' }}
   >
-   {children}
+    {children}
   </motion.div>
   )
 }

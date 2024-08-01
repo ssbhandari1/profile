@@ -31,7 +31,7 @@ const Skills = () => {
         {experties.map((expert) => (
           <span
             key={expert.id}
-            className="p-3 rounded-xl text-sm border border-slate-700 hover:bg-yellow-300 cursor-pointer"
+            className="p-3 rounded-full text-sm border border-slate-700 cursor-pointer hover:border-black hover:bg-[#6343e4]"
           >
             <expert.icon className="text-white" size={24} />
           </span>
